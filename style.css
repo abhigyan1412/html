@@ -66,20 +66,45 @@ h1{
 }
 .course button{
     background-color: blanchedalmond;
-    align-self: center;
+
 }
 h4{
     margin-bottom: 0px;
 }
 footer{
     display: grid;
+    grid-template-rows: auto;
+}
+.footer1{
+    display: grid;
     grid-template-columns: auto auto auto auto;
     background-color: black;
     height: 50px;
     align-items: center;
 }
-footer a{
+.footer1  > a{
     text-align: center;
+    color: white;
+    text-decoration: none;
+}
+.footer2{
+    display: flex;
+    /* grid-template-columns: auto auto auto auto; */
+    background-color: black;
+    height: 120px;
+    align-items: center;
+}
+.footer21{
+    display: grid;
+    grid-template-rows: auto;
+    background-color: black;
+    height: 120px;
+    align-items: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.footer21 > a{
+    text-align: left;
     color: white;
     text-decoration: none;
 }
