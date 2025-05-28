@@ -59,3 +59,24 @@ h1{
     display: block;
     text-align: center;
 }
+
+.home_next{
+    height: 40px;
+    width: 75px;
+    border: green solid;
+    background-color: greenyellow;
+    padding: 0px;
+}
+
+.course{
+    background-color: aquamarine;
+    margin-top: 10px;
+    border: aqua solid;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.course button{
+    background-color: blanchedalmond;
+    align-self: center;
+}
